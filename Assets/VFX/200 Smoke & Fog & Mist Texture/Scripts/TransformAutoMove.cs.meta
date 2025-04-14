@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: c04eb032ce79ee142bd39432dcc060c5
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 275875
+  packageName: 200 Smoke & Fog & Mist Texture
+  packageVersion: 1.0
+  assetPath: Assets/200 Smoke & Fog & Mist Texture/Scripts/TransformAutoMove.cs
+  uploadId: 641218

@@ -1,0 +1,17 @@
+fileFormatVersion: 2
+guid: 85db133321f80cd43bd562e7186b6152
+ShaderImporter:
+  externalObjects: {}
+  defaultTextures: []
+  nonModifiableTextures: []
+  preprocessorOverride: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 275875
+  packageName: 200 Smoke & Fog & Mist Texture
+  packageVersion: 1.0
+  assetPath: Assets/200 Smoke & Fog & Mist Texture/Shader/UILiquidLightTextureBased.shader
+  uploadId: 641218

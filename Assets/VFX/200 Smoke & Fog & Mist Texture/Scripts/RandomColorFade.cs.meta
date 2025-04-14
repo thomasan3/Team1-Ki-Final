@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: 909e1bc9162c29a448ffa6990391f539
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 275875
+  packageName: 200 Smoke & Fog & Mist Texture
+  packageVersion: 1.0
+  assetPath: Assets/200 Smoke & Fog & Mist Texture/Scripts/RandomColorFade.cs
+  uploadId: 641218
