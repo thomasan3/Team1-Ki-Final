@@ -12,14 +12,13 @@ Material:
   m_Parent: {fileID: 0}
   m_ModifiedSerializedProperties: 0
   m_ValidKeywords:
+  - _MATERIAL_AFFECTS_ALBEDO
   - _USE_DISSOLVE
-  m_InvalidKeywords:
-  - _TRIPLANAR_SPACE_WORLD
-  - _UV_CHANNEL_UV0
+  m_InvalidKeywords: []
   m_LightmapFlags: 4
-  m_EnableInstancingVariants: 0
+  m_EnableInstancingVariants: 1
   m_DoubleSidedGI: 0
-  m_CustomRenderQueue: -1
+  m_CustomRenderQueue: 2000
   stringTagMap: {}
   disabledShaderPasses: []
   m_LockedProperties: 
@@ -52,12 +51,24 @@ Material:
         m_Offset: {x: 0, y: 0}
     m_Ints: []
     m_Floats:
+    - _AffectAlbedo: 1
+    - _AffectEmission: 1
+    - _AffectMetal: 1
+    - _AffectNormal: 1
+    - _AffectSmoothness: 1
+    - _DecalColorMask0: 15
+    - _DecalColorMask1: 0
+    - _DecalColorMask2: 0
+    - _DecalColorMask3: 0
     - _DecalMeshBiasType: 0
     - _DecalMeshDepthBias: 0
     - _DecalMeshViewBias: 0
+    - _DecalStencilRef: 16
+    - _DecalStencilWriteMask: 16
     - _DissolveAmount: 0
     - _DrawOrder: 0
-    - _EdgeWidth: 0.0075
+    - _EdgeWidth: 0.00282
+    - _Emission_Strength: 2222
     - _GuideAdjuster: 1
     - _GuideTilling: 1.83
     - _TRIPLANAR_SPACE: 0
@@ -65,11 +76,10 @@ Material:
     - _USE_TRIPLANAR_UVS: 0
     - _UV_CHANNEL: 0
     m_Colors:
-    - _Color: {r: 0.4009434, g: 0.83352363, b: 1, a: 0}
-    - _DissolveColor: {r: 0.26899412, g: 3.8331661, b: 12.844469, a: 1}
+    - _Color: {r: 0.40094337, g: 0.83352363, b: 1, a: 1}
+    - _DissolveColor: {r: 16.062746, g: 228.89412, b: 766.9961, a: 1}
   m_BuildTextureStacks: []
-  m_AllowLocking: 1
---- !u!114 &6787111597996751266
+--- !u!114 &4153586480722037849
 MonoBehaviour:
   m_ObjectHideFlags: 11
   m_CorrespondingSourceObject: {fileID: 0}
@@ -78,7 +88,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d0353a89b1f911e48b9e16bdc9f2e058, type: 3}
+  m_Script: {fileID: 11500000, guid: da692e001514ec24dbc4cca1949ff7e8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  version: 9
+  version: 13
+  hdPluginSubTargetMaterialVersions:
+    m_Keys: []
+    m_Values: 
