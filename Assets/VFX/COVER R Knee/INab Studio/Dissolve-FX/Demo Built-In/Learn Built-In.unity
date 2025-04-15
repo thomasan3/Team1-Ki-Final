@@ -461,29 +461,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2bc2cfa04affc1a4a8fd6a8ca11560d8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  dissolver: {fileID: 0}
+  dissolver: {fileID: 354999335}
   lastState: 0
   startDelay: 2
   onEnableStart: 0
   onlyDissolve: 0
   onlyDissolveMaterialize: 0
---- !u!114 &354999334
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 354999331}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a9964b45e0c185541a78a37d29bd0915, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  dissolveEffect: {fileID: 0}
-  materializeEffect: {fileID: 0}
-  materialToCopyFrom: {fileID: 0}
-  vfxType: 0
-  dissolveType: 0
 --- !u!114 &354999335
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -507,18 +490,18 @@ MonoBehaviour:
     - serializedVersion: 3
       time: 0
       value: 0
-      inSlope: 0
-      outSlope: 0
-      tangentMode: 0
+      inSlope: 1
+      outSlope: 1
+      tangentMode: 34
       weightedMode: 0
       inWeight: 0
       outWeight: 0
     - serializedVersion: 3
       time: 1
       value: 1
-      inSlope: 0
-      outSlope: 0
-      tangentMode: 0
+      inSlope: 1
+      outSlope: 1
+      tangentMode: 34
       weightedMode: 0
       inWeight: 0
       outWeight: 0
@@ -555,7 +538,7 @@ MonoBehaviour:
   keywordsFlags: 0
   useAutomaticKeywords: 0
   materials:
-  - {fileID: 2100000, guid: 05b069575d9ba674d911c03c746bb9cb, type: 2}
+  - {fileID: 2100000, guid: c22379cf6d54c7744bdd4cc0750aa3ea, type: 2}
   materialsInverted: []
 --- !u!1 &474097649
 GameObject:
@@ -1635,20 +1618,17 @@ PrefabInstance:
     - target: {fileID: 8740770954659123014, guid: 8d9bd32cb2571450284eb41d0f762834, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 2100000, guid: 05b069575d9ba674d911c03c746bb9cb, type: 2}
+      objectReference: {fileID: 2100000, guid: c22379cf6d54c7744bdd4cc0750aa3ea, type: 2}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents:
     - targetCorrespondingSourceObject: {fileID: 783130037623814019, guid: 8d9bd32cb2571450284eb41d0f762834, type: 3}
       insertIndex: -1
-      addedObject: {fileID: 354999335}
-    - targetCorrespondingSourceObject: {fileID: 783130037623814019, guid: 8d9bd32cb2571450284eb41d0f762834, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 354999334}
-    - targetCorrespondingSourceObject: {fileID: 783130037623814019, guid: 8d9bd32cb2571450284eb41d0f762834, type: 3}
-      insertIndex: -1
       addedObject: {fileID: 354999333}
+    - targetCorrespondingSourceObject: {fileID: 783130037623814019, guid: 8d9bd32cb2571450284eb41d0f762834, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 354999335}
   m_SourcePrefab: {fileID: 100100000, guid: 8d9bd32cb2571450284eb41d0f762834, type: 3}
 --- !u!1001 &1424951096
 PrefabInstance:
