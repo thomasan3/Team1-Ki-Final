@@ -59,7 +59,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _EmissionMap:
-        m_Texture: {fileID: 2800000, guid: 0d54d38a86511bc4cbb5be03a7ee4136, type: 3}
+        m_Texture: {fileID: 2800000, guid: 5e189c71fac26904a995564caf9633d7, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _GuideTexture:
@@ -71,11 +71,11 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _MainTex:
-        m_Texture: {fileID: 2800000, guid: f424d1795e107b348bebec8a4dc8143e, type: 3}
+        m_Texture: {fileID: 2800000, guid: 2626824d15b9bb34ea2d9fe94d053e9f, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _MetallicGlossMap:
-        m_Texture: {fileID: 2800000, guid: 5e189c71fac26904a995564caf9633d7, type: 3}
+        m_Texture: {fileID: 2800000, guid: dc0fb198bec6f334aa6ba6291444ce44, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _Noise:
@@ -199,7 +199,7 @@ Material:
     - _Color: {r: 1, g: 1, b: 1, a: 1}
     - _DissolveColor: {r: 9.858462, g: 2.2862422, b: 0.5161497, a: 1}
     - _Ember_Color: {r: 0.10732983, g: 0.10732983, b: 0.15183245, a: 0}
-    - _EmissionColor: {r: 9.849155, g: 9.849155, b: 9.849155, a: 1}
+    - _EmissionColor: {r: 8.559511, g: 8.559511, b: 8.559511, a: 1}
     - _Emission_Back_Color: {r: 0, g: 0, b: 0, a: 0}
     - _Rotation_Vector: {r: 13.47, g: 0, b: 1, a: 0}
     - _Rotation_Vector_1: {r: -10, g: 0, b: 0, a: 0}

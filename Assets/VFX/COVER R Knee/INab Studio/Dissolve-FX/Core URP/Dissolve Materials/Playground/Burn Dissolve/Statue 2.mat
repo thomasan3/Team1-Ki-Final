@@ -208,7 +208,7 @@ Material:
     m_Colors:
     - _Back_Color: {r: 766.9961, g: 56.21961, b: 0, a: 0}
     - _BaseColor: {r: 1, g: 1, b: 1, a: 1}
-    - _Burn_Color: {r: 77.87429, g: 5.708063, b: 0, a: 0}
+    - _Burn_Color: {r: 71.6008, g: 16.828629, b: 12.496366, a: 0}
     - _Color: {r: 1, g: 1, b: 1, a: 1}
     - _DissolveColor: {r: 9.858462, g: 2.2862422, b: 0.5161497, a: 1}
     - _Ember_Color: {r: 0, g: 0, b: 0, a: 0}
