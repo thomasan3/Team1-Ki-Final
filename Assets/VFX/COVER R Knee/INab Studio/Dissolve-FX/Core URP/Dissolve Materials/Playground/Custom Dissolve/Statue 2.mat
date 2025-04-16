@@ -18,6 +18,7 @@ Material:
   - _TRIPLANAR_SPACE_WORLD
   - _USE_DISSOLVE
   - _USE_TRIPLANAR_UVS
+  - _USE_VERTEX_DISPLACEMENT
   m_InvalidKeywords: []
   m_LightmapFlags: 2
   m_EnableInstancingVariants: 0
@@ -138,7 +139,7 @@ Material:
     - _Cutoff: 0
     - _DetailAlbedoMapScale: 1
     - _DetailNormalMapScale: 1
-    - _DissolveAmount: 0
+    - _DissolveAmount: 0.89
     - _Dissolve_Amount: 0
     - _DstBlend: 0
     - _EdgeWidth: 0.0051
@@ -159,10 +160,10 @@ Material:
     - _Guide_Tilling_Speed: 0
     - _Hardness: 0
     - _Hardness_VD: 0.565
-    - _Main_Edge: 1.16
+    - _Main_Edge: 0.58
     - _Main_Edge_Pattern_TIlling: 16.7
     - _Main_Edge_Pattern_Tiling: 0
-    - _Main_Edge_Strength: 0.63
+    - _Main_Edge_Strength: 0.075
     - _MaxValue: 13.91
     - _Max_Value: 22.81
     - _Metallic: 0
@@ -170,7 +171,7 @@ Material:
     - _Min_Value: -1.1
     - _Noise_Offset_Speed: 0
     - _Noise_Scroll_Speed: 0.1
-    - _Noise_Tiling: 8.96
+    - _Noise_Tiling: 3
     - _Noise_Tilling: 3
     - _OcclusionStrength: 1
     - _Offset: 0
@@ -192,7 +193,7 @@ Material:
     - _USE_BACK_COLOR: 1
     - _USE_DISSOLVE: 1
     - _USE_TRIPLANAR_UVS: 1
-    - _USE_VERTEX_DISPLACEMENT: 0
+    - _USE_VERTEX_DISPLACEMENT: 1
     - _UV_CHANNEL: 0
     - _Use_Metallic_Texture: 1
     - _Width: 2

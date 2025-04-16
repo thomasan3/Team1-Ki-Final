@@ -15,6 +15,7 @@ Material:
   - _ALPHATEST_ON
   - _TRIPLANAR_SPACE_WORLD
   - _USE_DISSOLVE
+  - _USE_VERTEX_DISPLACEMENT
   m_InvalidKeywords:
   - _UV_CHANNEL_UV0
   m_LightmapFlags: 2
@@ -102,7 +103,7 @@ Material:
     - _Cutoff: 0
     - _DetailAlbedoMapScale: 1
     - _DetailNormalMapScale: 1
-    - _DissolveAmount: 0
+    - _DissolveAmount: 0.57
     - _DstBlend: 0
     - _EdgeWidth: 0.0025
     - _EnvironmentReflections: 1
@@ -128,7 +129,7 @@ Material:
     - _USE_BACK_COLOR: 0
     - _USE_DISSOLVE: 1
     - _USE_TRIPLANAR_UVS: 0
-    - _USE_VERTEX_DISPLACEMENT: 0
+    - _USE_VERTEX_DISPLACEMENT: 1
     - _UV_CHANNEL: 0
     - _Use_Metallic_Texture: 1
     - _Width: 0

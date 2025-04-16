@@ -170,7 +170,7 @@ Material:
     - _MinValue: 0.01
     - _Min_Value: 0.2
     - _Noise_Offset_Speed: 0
-    - _Noise_Scroll_Speed: 0
+    - _Noise_Scroll_Speed: 0.0371
     - _Noise_Tiling: 1
     - _Noise_Tilling: 3
     - _OcclusionStrength: 1
