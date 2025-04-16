@@ -8,10 +8,3 @@ ScriptedImporter:
   assetBundleName: 
   assetBundleVariant: 
   script: {fileID: 11500000, guid: 625f186215c104763be7675aa2d941aa, type: 3}
-AssetOrigin:
-  serializedVersion: 1
-  productId: 240467
-  packageName: 'Dissolve FX: Master Kit'
-  packageVersion: 2.0
-  assetPath: Assets/INab Studio/Demo Assets/INab Studio/Helper Shaders/Lit 4 maps.shadergraph
-  uploadId: 696727

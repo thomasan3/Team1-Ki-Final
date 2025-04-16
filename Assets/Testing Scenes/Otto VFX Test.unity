@@ -133,6 +133,7 @@ GameObject:
   - component: {fileID: 4684580}
   - component: {fileID: 4684579}
   - component: {fileID: 4684578}
+  - component: {fileID: 4684581}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -207,13 +208,57 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4684577}
   serializedVersion: 2
-  m_LocalRotation: {x: 0.0810896, y: 0.7260372, z: -0.10166264, w: 0.6752475}
-  m_LocalPosition: {x: -56, y: 23.6, z: -10}
+  m_LocalRotation: {x: 0.08393627, y: 0.74486965, z: -0.09932533, w: 0.65441453}
+  m_LocalPosition: {x: -21.1, y: 11, z: -20.4}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_LocalEulerAnglesHint: {x: 14.9, y: 94, z: -1.159}
+  m_LocalEulerAnglesHint: {x: 14.941, y: 97.359, z: -0.294}
+--- !u!114 &4684581
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4684577}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a79441f348de89743a2939f4d699eac1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_RenderShadows: 1
+  m_RequiresDepthTextureOption: 2
+  m_RequiresOpaqueTextureOption: 2
+  m_CameraType: 0
+  m_Cameras: []
+  m_RendererIndex: -1
+  m_VolumeLayerMask:
+    serializedVersion: 2
+    m_Bits: 1
+  m_VolumeTrigger: {fileID: 0}
+  m_VolumeFrameworkUpdateModeOption: 2
+  m_RenderPostProcessing: 1
+  m_Antialiasing: 0
+  m_AntialiasingQuality: 2
+  m_StopNaN: 0
+  m_Dithering: 0
+  m_ClearDepth: 1
+  m_AllowXRRendering: 1
+  m_AllowHDROutput: 1
+  m_UseScreenCoordOverride: 0
+  m_ScreenSizeOverride: {x: 0, y: 0, z: 0, w: 0}
+  m_ScreenCoordScaleBias: {x: 0, y: 0, z: 0, w: 0}
+  m_RequiresDepthTexture: 0
+  m_RequiresColorTexture: 0
+  m_Version: 2
+  m_TaaSettings:
+    m_Quality: 3
+    m_FrameInfluence: 0.1
+    m_JitterScale: 1
+    m_MipBias: 0
+    m_VarianceClampScale: 0.9
+    m_ContrastAdaptiveSharpening: 0
 --- !u!1 &116908213
 GameObject:
   m_ObjectHideFlags: 0
@@ -797,6 +842,7 @@ GameObject:
   m_Component:
   - component: {fileID: 857441139}
   - component: {fileID: 857441138}
+  - component: {fileID: 857441140}
   m_Layer: 0
   m_Name: Directional Light
   m_TagString: Untagged
@@ -881,6 +927,29 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 50, y: -30, z: 0}
+--- !u!114 &857441140
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 857441137}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 474bcb49853aa07438625e644c072ee6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Version: 3
+  m_UsePipelineSettings: 1
+  m_AdditionalLightsShadowResolutionTier: 2
+  m_LightLayerMask: 1
+  m_RenderingLayers: 1
+  m_CustomShadowLayers: 0
+  m_ShadowLayerMask: 1
+  m_ShadowRenderingLayers: 1
+  m_LightCookieSize: {x: 1, y: 1}
+  m_LightCookieOffset: {x: 0, y: 0}
+  m_SoftShadowQuality: 0
 --- !u!1 &955092974
 GameObject:
   m_ObjectHideFlags: 0
@@ -1360,7 +1429,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2bc2cfa04affc1a4a8fd6a8ca11560d8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  dissolver: {fileID: 0}
+  dissolver: {fileID: 1472436837}
   lastState: 0
   startDelay: 2
   onEnableStart: 0
@@ -1378,9 +1447,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9b719996c4202324191c171b7f44a3c8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  manualControl: 0
+  manualControl: 1
   updateValues: 1
-  MaterialsDissolveValue: 1
+  MaterialsDissolveValue: 0.82
   MaterialsInvertedDissolveValue: 0
   curveSettings: 1
   dissolveCurve:
@@ -1745,7 +1814,7 @@ Terrain:
   m_StaticShadowCaster: 0
   m_IgnoreQualitySettings: 0
   m_ReflectionProbeUsage: 1
-  m_MaterialTemplate: {fileID: 10652, guid: 0000000000000000f000000000000000, type: 0}
+  m_MaterialTemplate: {fileID: 2100000, guid: 594ea882c5a793440b60ff72d896021e, type: 2}
   m_BakeLightProbesForTrees: 1
   m_PreserveTreePrototypeLayers: 0
   m_DeringLightProbesForTrees: 1

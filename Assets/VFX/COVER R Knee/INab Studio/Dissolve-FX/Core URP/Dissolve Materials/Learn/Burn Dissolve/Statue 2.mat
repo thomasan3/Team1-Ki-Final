@@ -13,15 +13,13 @@ Material:
   m_ModifiedSerializedProperties: 0
   m_ValidKeywords:
   - INVERT_DIRECTION_ON
+  - _ALPHATEST_ON
   - _AXIS_Y
-  - _BUILTIN_ALPHATEST_ON
-  - _BUILTIN_AlphaClip
   - _TRIPLANAR_SPACE_WORLD
   - _USE_DISSOLVE
   - _USE_TRIPLANAR_UVS
   - _USE_VERTEX_DISPLACEMENT
   m_InvalidKeywords:
-  - _ALPHATEST_ON
   - _USE_BACK_COLOR
   - _UV_CHANNEL_UV0
   m_LightmapFlags: 2
@@ -112,19 +110,10 @@ Material:
     - INVERT_DIRECTION: 1
     - _AXIS: 1
     - _AlphaClip: 1
+    - _AlphaToMask: 1
     - _BOOLEAN: 0
-    - _BUILTIN_AlphaClip: 1
-    - _BUILTIN_Blend: 0
-    - _BUILTIN_CullMode: 2
-    - _BUILTIN_DstBlend: 0
-    - _BUILTIN_QueueControl: 1
-    - _BUILTIN_QueueOffset: 0
-    - _BUILTIN_SrcBlend: 1
-    - _BUILTIN_Surface: 0
-    - _BUILTIN_ZTest: 4
-    - _BUILTIN_ZWrite: 1
-    - _BUILTIN_ZWriteControl: 0
     - _Blend: 0
+    - _BlendModePreserveSpecular: 0
     - _BumpScale: 1
     - _Burn_Hardness: 0.367
     - _Burn_Offset: 2
@@ -215,17 +204,4 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d0353a89b1f911e48b9e16bdc9f2e058, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  version: 5
---- !u!114 &1807914010190387171
-MonoBehaviour:
-  m_ObjectHideFlags: 11
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 639247ca83abc874e893eb93af2b5e44, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  version: 0
+  version: 7
