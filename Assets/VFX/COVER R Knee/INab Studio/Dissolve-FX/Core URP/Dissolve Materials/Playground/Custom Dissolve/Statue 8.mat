@@ -18,7 +18,6 @@ Material:
   - _TRIPLANAR_SPACE_WORLD
   - _USE_DISSOLVE
   - _USE_TRIPLANAR_UVS
-  - _USE_VERTEX_DISPLACEMENT
   m_InvalidKeywords: []
   m_LightmapFlags: 2
   m_EnableInstancingVariants: 0
@@ -193,7 +192,7 @@ Material:
     - _USE_BACK_COLOR: 1
     - _USE_DISSOLVE: 1
     - _USE_TRIPLANAR_UVS: 1
-    - _USE_VERTEX_DISPLACEMENT: 1
+    - _USE_VERTEX_DISPLACEMENT: 0
     - _UV_CHANNEL: 0
     - _Use_Metallic_Texture: 1
     - _Width: 2

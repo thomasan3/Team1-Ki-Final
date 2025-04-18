@@ -18,7 +18,6 @@ Material:
   - _TRIPLANAR_SPACE_WORLD
   - _USE_DISSOLVE
   - _USE_TRIPLANAR_UVS
-  - _USE_VERTEX_DISPLACEMENT
   m_InvalidKeywords: []
   m_LightmapFlags: 2
   m_EnableInstancingVariants: 0
@@ -27,7 +26,7 @@ Material:
   stringTagMap:
     RenderType: TransparentCutout
   disabledShaderPasses: []
-  m_LockedProperties: 
+  m_LockedProperties: _Metallic
   m_SavedProperties:
     serializedVersion: 3
     m_TexEnvs:
@@ -36,11 +35,11 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _BaseMap:
-        m_Texture: {fileID: 2800000, guid: f424d1795e107b348bebec8a4dc8143e, type: 3}
+        m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _BumpMap:
-        m_Texture: {fileID: 2800000, guid: db4ee3571e158eb43967dc32d8a137f0, type: 3}
+        m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _DetailAlbedoMap:
@@ -56,7 +55,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _EmissionMap:
-        m_Texture: {fileID: 2800000, guid: 0d54d38a86511bc4cbb5be03a7ee4136, type: 3}
+        m_Texture: {fileID: 2800000, guid: 89b7b3f73e7f9c6488db76e10aaf448d, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _GuideTexture:
@@ -76,7 +75,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _MetallicGlossMap:
-        m_Texture: {fileID: 2800000, guid: 5e189c71fac26904a995564caf9633d7, type: 3}
+        m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _Noise:
@@ -139,7 +138,7 @@ Material:
     - _Cutoff: 0
     - _DetailAlbedoMapScale: 1
     - _DetailNormalMapScale: 1
-    - _DissolveAmount: 0.71
+    - _DissolveAmount: 0
     - _Dissolve_Amount: 0
     - _DstBlend: 0
     - _EdgeWidth: 0.0051
@@ -193,7 +192,7 @@ Material:
     - _USE_BACK_COLOR: 1
     - _USE_DISSOLVE: 1
     - _USE_TRIPLANAR_UVS: 1
-    - _USE_VERTEX_DISPLACEMENT: 1
+    - _USE_VERTEX_DISPLACEMENT: 0
     - _UV_CHANNEL: 0
     - _Use_Metallic_Texture: 1
     - _Width: 2
@@ -204,8 +203,8 @@ Material:
     m_Colors:
     - _Additional_Edge_Color_1: {r: 0, g: 0, b: 0, a: 0}
     - _Additional_Edge_Color_2: {r: 1, g: 1, b: 1, a: 0}
-    - _Back_Color: {r: 28.109804, g: 56.21961, b: 0, a: 1}
-    - _BaseColor: {r: 1, g: 1, b: 1, a: 1}
+    - _Back_Color: {r: 56.219627, g: 47.80529, b: 0, a: 1}
+    - _BaseColor: {r: 1, g: 0.9926085, b: 0.8798149, a: 1}
     - _Burn_Color: {r: 7.307888, g: 32.383606, b: 0, a: 0}
     - _Color: {r: 1, g: 1, b: 1, a: 1}
     - _DissolveColor: {r: 9.858462, g: 2.2862422, b: 0.5161497, a: 1}
