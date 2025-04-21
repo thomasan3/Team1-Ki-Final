@@ -138,7 +138,7 @@ Material:
     - _Cutoff: 0.567
     - _DetailAlbedoMapScale: 1
     - _DetailNormalMapScale: 1
-    - _DissolveAmount: 0.5528535
+    - _DissolveAmount: 0.85
     - _Dissolve_Amount: 0
     - _DstBlend: 0
     - _EdgeWidth: 0.0051
