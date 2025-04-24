@@ -2991,7 +2991,7 @@ MonoBehaviour:
   placementMode: 0
   surfaceCoordinates: 1
   sourceMesh: 1
-  skinnedTransform: 2
+  skinnedTransform: 1
   applyOrientation: 1
 --- !u!114 &8926484042661614810
 MonoBehaviour:
