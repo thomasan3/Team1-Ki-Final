@@ -2415,7 +2415,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 340554887}
-  - component: {fileID: 340554888}
   m_Layer: 0
   m_Name: 1st Upper small circle (2)
   m_TagString: Untagged
@@ -2444,19 +2443,6 @@ Transform:
   - {fileID: 499249893}
   m_Father: {fileID: 1803960647}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &340554888
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 340554886}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6c2b526791c5cc7408aab5602fe39cea, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  rotationSpeed: -5
 --- !u!1001 &352180557
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -4120,7 +4106,7 @@ Rigidbody:
   m_GameObject: {fileID: 549440867}
   serializedVersion: 4
   m_Mass: 1
-  m_Drag: 0
+  m_Drag: 5
   m_AngularDrag: 0.05
   m_CenterOfMass: {x: 0, y: 0, z: 0}
   m_InertiaTensor: {x: 1, y: 1, z: 1}
@@ -15112,7 +15098,7 @@ MonoBehaviour:
   - Name: shard_body
     OriginalTransform: {fileID: 1156784585}
     MirroredTransform: {fileID: 1248938958}
-  _mirrorScale: 0
+  _mirrorScale: 1
 --- !u!1 &1249818158
 GameObject:
   m_ObjectHideFlags: 0
@@ -16107,7 +16093,7 @@ Rigidbody:
   m_GameObject: {fileID: 1390402149}
   serializedVersion: 4
   m_Mass: 1
-  m_Drag: 0
+  m_Drag: 5
   m_AngularDrag: 0.05
   m_CenterOfMass: {x: 0, y: 0, z: 0}
   m_InertiaTensor: {x: 1, y: 1, z: 1}
@@ -18317,7 +18303,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1827556666}
-  - component: {fileID: 1827556667}
   m_Layer: 0
   m_Name: 1st Upper small circle (1)
   m_TagString: Untagged
@@ -18346,19 +18331,6 @@ Transform:
   - {fileID: 1601070595}
   m_Father: {fileID: 1474472262}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1827556667
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1827556665}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6c2b526791c5cc7408aab5602fe39cea, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  rotationSpeed: -5
 --- !u!4 &1838180929 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 9142839629247093575, guid: eb6bc10f92728a546a3d8c144d0ef787, type: 3}
@@ -19538,7 +19510,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1981509261}
-  - component: {fileID: 1981509262}
   m_Layer: 0
   m_Name: 1st Upper small circle (3)
   m_TagString: Untagged
@@ -19567,19 +19538,6 @@ Transform:
   - {fileID: 395724737}
   m_Father: {fileID: 1937549572}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1981509262
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1981509260}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6c2b526791c5cc7408aab5602fe39cea, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  rotationSpeed: -5
 --- !u!1001 &1987468658
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -21567,7 +21525,7 @@ Transform:
   m_GameObject: {fileID: 919132147909437026}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.431, y: 0, z: 0.76}
+  m_LocalPosition: {x: -0.431, y: 0, z: 1.31}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
