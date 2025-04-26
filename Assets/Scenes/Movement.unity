@@ -19529,6 +19529,10 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: -5017270608974674251, guid: f6e4c5f47afa68d498a9b7d8a2eb9e4a, type: 3}
+      propertyPath: m_Mesh
+      value: 
+      objectReference: {fileID: -5985777542502016824, guid: a005d9f7416d12844a0f53cfb6eda5eb, type: 3}
+    - target: {fileID: -5017270608974674251, guid: f6e4c5f47afa68d498a9b7d8a2eb9e4a, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: 888f4782b88bb584c925220c92fe386c, type: 2}
@@ -19543,6 +19547,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: f6e4c5f47afa68d498a9b7d8a2eb9e4a, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1248939034}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: f6e4c5f47afa68d498a9b7d8a2eb9e4a, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1248939035}
   m_SourcePrefab: {fileID: 100100000, guid: f6e4c5f47afa68d498a9b7d8a2eb9e4a, type: 3}
 --- !u!4 &1248938957 stripped
 Transform:
@@ -20173,6 +20180,22 @@ MonoBehaviour:
     OriginalTransform: {fileID: 1156784585}
     MirroredTransform: {fileID: 1248938958}
   _mirrorScale: 1
+--- !u!114 &1248939035
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1248939033}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8625b34591374f4419ac9a9af7950d76, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _transformToCopy: {fileID: 0}
+  _myTransform: {fileID: 0}
+  _mirroredTransformPairs: []
+  _mirrorScale: 0
 --- !u!1 &1249818158
 GameObject:
   m_ObjectHideFlags: 0
