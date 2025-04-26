@@ -11242,7 +11242,11 @@ PrefabInstance:
     - target: {fileID: -5017270608974674251, guid: a005d9f7416d12844a0f53cfb6eda5eb, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 2100000, guid: 888f4782b88bb584c925220c92fe386c, type: 2}
+      objectReference: {fileID: 2100000, guid: a4b4d7574a7b53f40bdb2ef226599630, type: 2}
+    - target: {fileID: -5017270608974674251, guid: a005d9f7416d12844a0f53cfb6eda5eb, type: 3}
+      propertyPath: m_Materials.Array.data[1]
+      value: 
+      objectReference: {fileID: 2100000, guid: eb7f4e6005954fa439687ffe03d519da, type: 2}
     - target: {fileID: -4469369997853884289, guid: a005d9f7416d12844a0f53cfb6eda5eb, type: 3}
       propertyPath: m_LocalRotation.w
       value: 0.9964281
@@ -26881,7 +26885,11 @@ PrefabInstance:
     - target: {fileID: -5017270608974674251, guid: a005d9f7416d12844a0f53cfb6eda5eb, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 2100000, guid: 888f4782b88bb584c925220c92fe386c, type: 2}
+      objectReference: {fileID: 2100000, guid: a4b4d7574a7b53f40bdb2ef226599630, type: 2}
+    - target: {fileID: -5017270608974674251, guid: a005d9f7416d12844a0f53cfb6eda5eb, type: 3}
+      propertyPath: m_Materials.Array.data[1]
+      value: 
+      objectReference: {fileID: 2100000, guid: eb7f4e6005954fa439687ffe03d519da, type: 2}
     - target: {fileID: 919132149155446097, guid: a005d9f7416d12844a0f53cfb6eda5eb, type: 3}
       propertyPath: m_Name
       value: shard_body_rig_nop
