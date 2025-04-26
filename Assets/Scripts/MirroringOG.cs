@@ -10,7 +10,7 @@ namespace Oculus.Movement.Effects
     /// Mirrors an object by copying its local transformation values.
     /// </summary>
     [DefaultExecutionOrder(300)]
-    public class LateMirroredObject : MonoBehaviour
+    public class MirroringOG : MonoBehaviour
     {
         /// <summary>
         /// Contains information about a mirrored transform pair.
@@ -147,21 +147,60 @@ namespace Oculus.Movement.Effects
             _mirroredTransformPairs = _mirrorTransformPairList.ToArray();
         }
 
-        /// <summary>
-        /// Mirror in late update, after character has been animated and corrected.
-        /// </summary>
-        private void LateUpdate()
+        private class TransformSnapshot
         {
-            _myTransform.localPosition = _transformToCopy.localPosition;
-            _myTransform.localRotation = _transformToCopy.localRotation;
-            if (_mirrorScale)
+            public Vector3 Position;
+            public Quaternion Rotation;
+            public Vector3 Scale;
+            public float Timestamp;
+
+            public TransformSnapshot(Vector3 position, Quaternion rotation, Vector3 scale, float timestamp)
             {
-                _myTransform.localScale = _transformToCopy.localScale;
-            }
-            foreach (var transformPair in _mirroredTransformPairs)
-            {
-                transformPair.ApplyMirroring(_mirrorScale);
+                Position = position;
+                Rotation = rotation;
+                Scale = scale;
+                Timestamp = timestamp;
             }
         }
+
+        private Queue<TransformSnapshot> _snapshotQueue = new Queue<TransformSnapshot>();
+        private float _delaySeconds = 2f;
+
+        private void LateUpdate()
+        {
+            // Record the current transform of the original
+            _snapshotQueue.Enqueue(new TransformSnapshot(
+                _transformToCopy.localPosition,
+                _transformToCopy.localRotation,
+                _transformToCopy.localScale,
+                Time.time
+            ));
+
+            // Check if we have a snapshot older than 2 seconds
+            while (_snapshotQueue.Count > 0 && Time.time - _snapshotQueue.Peek().Timestamp >= _delaySeconds)
+            {
+                var snapshot = _snapshotQueue.Dequeue();
+
+                // Apply the delayed transform to the mirrored object
+                _myTransform.localPosition = snapshot.Position;
+                _myTransform.localRotation = snapshot.Rotation;
+                if (_mirrorScale)
+                {
+                    _myTransform.localScale = snapshot.Scale;
+                }
+
+                // Also apply for all pairs
+                foreach (var transformPair in _mirroredTransformPairs)
+                {
+                    transformPair.MirroredTransform.localPosition = transformPair.OriginalTransform.localPosition;
+                    transformPair.MirroredTransform.localRotation = transformPair.OriginalTransform.localRotation;
+                    if (_mirrorScale)
+                    {
+                        transformPair.MirroredTransform.localScale = transformPair.OriginalTransform.localScale;
+                    }
+                }
+            }
+        }
+
     }
 }
