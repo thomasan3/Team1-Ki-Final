@@ -51352,6 +51352,7 @@ GameObject:
   - component: {fileID: 5183410048739624587}
   - component: {fileID: 6617397372024512192}
   - component: {fileID: 3632664738027056175}
+  - component: {fileID: 6617397372024512193}
   m_Layer: 0
   m_Name: polySurface220
   m_TagString: Untagged
@@ -52448,7 +52449,6 @@ GameObject:
   - component: {fileID: 8927621959436113043}
   - component: {fileID: 7759184488634903683}
   - component: {fileID: 1261280008099095947}
-  - component: {fileID: 8927621959436113045}
   - component: {fileID: 8927621959436113044}
   m_Layer: 0
   m_Name: polySurface218
@@ -53251,7 +53251,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 3e4ee150d4c60da41909483817841b40, type: 2}
+  - {fileID: 2100000, guid: 5000aae9bcdf11241951137d6189de43, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -54875,6 +54875,7 @@ GameObject:
   - component: {fileID: 4990238748713790008}
   - component: {fileID: 762965582132824795}
   - component: {fileID: 8065104934250603380}
+  - component: {fileID: 8065104934250603381}
   m_Layer: 0
   m_Name: polySurface577
   m_TagString: Untagged
@@ -64370,6 +64371,19 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4226083887415355452}
   m_Mesh: {fileID: 5525573218267757942, guid: 8a174f2e988082d4fb720e1b4acac138, type: 3}
+--- !u!114 &6617397372024512193
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4226083887415355452}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6c2b526791c5cc7408aab5602fe39cea, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  rotationSpeed: 2
 --- !u!1 &6622736912259701389
 GameObject:
   m_ObjectHideFlags: 0
@@ -70433,7 +70447,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6c2b526791c5cc7408aab5602fe39cea, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  rotationSpeed: 5
+  rotationSpeed: 3
 --- !u!1 &7669107859182092169
 GameObject:
   m_ObjectHideFlags: 0
@@ -72973,7 +72987,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 3e4ee150d4c60da41909483817841b40, type: 2}
+  - {fileID: 2100000, guid: 5000aae9bcdf11241951137d6189de43, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -72995,6 +73009,19 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!114 &8065104934250603381
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4892347047205452376}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6c2b526791c5cc7408aab5602fe39cea, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  rotationSpeed: 2
 --- !u!1 &8067140545354940086
 GameObject:
   m_ObjectHideFlags: 0
@@ -73550,7 +73577,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 3e4ee150d4c60da41909483817841b40, type: 2}
+  - {fileID: 2100000, guid: 5000aae9bcdf11241951137d6189de43, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -74281,7 +74308,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6c2b526791c5cc7408aab5602fe39cea, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  rotationSpeed: -4
+  rotationSpeed: -3
 --- !u!4 &8272411101731537372
 Transform:
   m_ObjectHideFlags: 0
@@ -75795,7 +75822,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6c2b526791c5cc7408aab5602fe39cea, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  rotationSpeed: 4
+  rotationSpeed: 2
 --- !u!1 &8557039229637031848
 GameObject:
   m_ObjectHideFlags: 0
@@ -75990,7 +76017,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 3e4ee150d4c60da41909483817841b40, type: 2}
+  - {fileID: 2100000, guid: 5000aae9bcdf11241951137d6189de43, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -78009,19 +78036,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   rotationSpeed: 5
---- !u!114 &8927621959436113045
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4448150332922937391}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6c2b526791c5cc7408aab5602fe39cea, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  rotationSpeed: 10
 --- !u!4 &8928112524969761016
 Transform:
   m_ObjectHideFlags: 0
