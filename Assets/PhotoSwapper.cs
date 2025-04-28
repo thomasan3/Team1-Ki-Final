@@ -2,10 +2,10 @@ using UnityEngine;
 using UnityEngine.Networking;
 using System.Collections;
 
-public class GlobalBaseMapSwitcher : MonoBehaviour
+public class PhotoSwapper : MonoBehaviour
 {
     [SerializeField] private Material materialAsset; // The Material asset itself
-    [SerializeField] private string imageUrl;
+    private string imageUrl = "https://github.com/Joseph-Rother/KI-image/blob/main/latest.png?raw=true";
 
     private void Start()
     {
@@ -19,6 +19,8 @@ public class GlobalBaseMapSwitcher : MonoBehaviour
             Debug.LogWarning("No image URL specified!");
             yield break;
         }
+
+        imageUrl = imageUrl + "?t=" + Time.time;
 
         UnityWebRequest request = UnityWebRequestTexture.GetTexture(imageUrl);
         yield return request.SendWebRequest();
